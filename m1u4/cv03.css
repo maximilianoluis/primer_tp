@@ -1,0 +1,33 @@
+
+h1{color: blue; font-family: Arial, Helvetica, sans-serif; background-color: aqua; text-align: center;
+}
+
+p{color: palevioletred;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 35px;}
+
+h2{color: navajowhite;}
+.destacados{color: orange;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;}
+
+#rojo{
+    background-color: red;
+width: 200px;
+height: 200px;
+padding: 20px;
+margin: 50px;
+box-shadow: 10px 20px 10px black;
+border-radius: 50px 0;
+}
+.texto{color: blue;
+column-count: 3;
+column-gap: 50px;}
+
+h1{color: green; font-family: "Playwrite DE SAS", cursive;
+}
+p{font-family: "Playwrite DE SAS", cursive;}
+
+.iconos{color: blue;
+font-size: 100px;}
