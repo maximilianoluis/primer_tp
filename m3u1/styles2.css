@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #ffe100;
+    padding: 30px;
+    text-align: center;
+}
+
+.categoria {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categoria h2 {
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.item {
+    background-color: #e8e8e8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.contacto {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contacto h2 {
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.contacto textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contacto button {
+    background-color: #004aad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #003680;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: white;
+    margin-top: 40px;
+}
