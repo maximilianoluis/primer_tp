@@ -1,0 +1,89 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #555;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.input, .textarea {
+    width: 100%;
+    margin: 8px 0 15px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.textarea {
+    height: 120px;
+    resize: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #005fcc;
+}
+
+.resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subtext {
+    color: #555;
+}
+
+.contador {
+    font-size: 18px;
+}
+
+.normal {
+    color: green;
+}
+
+.alerta {
+    color: orange;
+}
+
+.peligro {
+    color: red;
+}
+
+.mensaje {
+    font-weight: bold;
+    margin-top: 8px;
+}

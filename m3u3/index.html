@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>modulo  3 unidad 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Parcial de HISTORIA</h1>
+        <h3>Contenido completo de la materia</h3>
+
+        <!-- ==================== EJERCICIO 1 ==================== -->
+        <section class="card">
+            <h2>Ejercicio 1: Promedio de Historia</h2>
+
+            <label for="nota1">Nota 1 (Historia):</label>
+            <input type="number" id="nota1" class="input" min="0" max="10">
+
+            <label for="nota2">Nota 2 (Historia):</label>
+            <input type="number" id="nota2" class="input" min="0" max="10">
+
+            <button class="btn" onclick="calcularPromedio()">Calcular promedio</button>
+
+            <p id="resultado-promedio" class="resultado"></p>
+        </section>
+
+        <!-- ==================== EJERCICIO 2 ==================== -->
+        <section class="card">
+            <h2>Ejercicio 2: NOTAS sobre la materia</h2>
+            <p class="subtext">Máximo permitido: <strong>100 caracteres</strong>.</p>
+
+            <textarea id="texto" maxlength="150" class="textarea" 
+                      oninput="contarCaracteresProfesional()"></textarea>
+
+            <p class="contador">
+                Caracteres usados: <span id="usados" class="normal">0</span> / 100
+            </p>
+
+            <p id="mensaje" class="mensaje"></p>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
